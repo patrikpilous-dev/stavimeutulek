@@ -1190,6 +1190,54 @@ ul { list-style: none; }
   font-weight: 600;
 }
 
+/* ============ CTA BANNER ============ */
+.cta-banner {
+  background: linear-gradient(135deg, var(--orange) 0%, #e0551e 100%);
+  padding: 64px 0;
+}
+.cta-banner__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.cta-banner__text h2 {
+  font-family: var(--font-head);
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 8px;
+}
+.cta-banner__text p {
+  color: rgba(255,255,255,.85);
+  font-size: 1.05rem;
+  max-width: 480px;
+}
+.btn--lg { padding: 18px 40px; font-size: 1.1rem; white-space: nowrap; }
+.cta-banner .btn--primary {
+  background: var(--white);
+  color: var(--orange);
+  flex-shrink: 0;
+}
+.cta-banner .btn--primary:hover { background: var(--yellow); }
+
+@media (max-width: 640px) {
+  .cta-banner__inner { flex-direction: column; text-align: center; }
+  .cta-banner__text p { max-width: 100%; }
+}
+
+/* ============ FOOTER CREDIT ============ */
+.footer__credit {
+  font-size: .8rem;
+  color: #555;
+  margin-top: -4px;
+}
+.footer__credit a {
+  color: var(--orange);
+  font-weight: 600;
+}
+.footer__credit a:hover { opacity: .8; }
+
 /* ============ MISSION SHORT ============ */
 .mission--short .mission__text { padding-top: 8px; }
 
