@@ -893,6 +893,13 @@ ul { list-style: none; }
 .footer__ig:hover { opacity: .75; }
 .footer__brand { text-decoration: none; }
 
+/* ============ MEDIA LOGO DARK BG (ČT24 bílé logo) ============ */
+.media__logo-wrap--dark {
+  background: #1a1a2e;
+  border-radius: var(--radius-sm);
+  padding: 6px 10px;
+}
+
 /* ============ BLOG PAGE ============ */
 .blog-page { background: var(--cream); }
 .blog-feed {
