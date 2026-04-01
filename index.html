@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stavíme útulek – Dejme zvířatům nový domov</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="mainNav">
+    <div class="nav__inner">
+      <a href="#uvod" class="nav__logo">
+        <span class="nav__paw">🐾</span>
+        <span>Stavíme útulek</span>
+      </a>
+      <button class="nav__burger" id="navBurger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#uvod">Úvod</a></li>
+        <li><a href="#o-projektu">O projektu</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#podporuji-nas">Podporují nás</a></li>
+        <li><a href="#media">V médiích</a></li>
+        <li><a href="#novinky">Novinky</a></li>
+        <li><a href="#kontakt" class="nav__cta">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="uvod">
+    <div class="hero__bg-shapes">
+      <div class="hero__blob hero__blob--1"></div>
+      <div class="hero__blob hero__blob--2"></div>
+      <div class="hero__blob hero__blob--3"></div>
+    </div>
+    <div class="container hero__content">
+      <div class="hero__text">
+        <div class="hero__badge">🐕 Největší sbírka pro zvířata</div>
+        <h1 class="hero__title">Stavíme<br><span class="hero__title--accent">útulek</span></h1>
+        <p class="hero__desc">
+          Pomozme zvířatům, která potřebují druhou šanci. Sbíráme na výstavbu moderního, laskavého útulku, kde bude každý čtyřnohý obyvatel mít to, co si zaslouží.
+        </p>
+        <div class="hero__buttons">
+          <a href="https://donio.cz/widget2/38927" class="btn btn--primary" target="_blank">Přispět na sbírku</a>
+          <a href="#o-projektu" class="btn btn--ghost">Zjistit více</a>
+        </div>
+      </div>
+      <div class="hero__widget-wrap">
+        <div class="hero__widget-card">
+          <div class="hero__widget-title">💛 Podpořte sbírku</div>
+          <iframe
+            src="https://donio.cz/widget2/38927"
+            width="100%"
+            height="520"
+            frameborder="0"
+            loading="lazy"
+            title="Sbírka Stavíme útulek na Donio"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll dolů</span>
+      <div class="hero__arrow"></div>
+    </div>
+  </section>
+
+  <!-- VIZUALIZACE -->
+  <section class="vizualizace section" id="vizualizace">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">🏗️ Jak bude vypadat</div>
+        <h2 class="section-title">Vizualizace nového útulku</h2>
+        <p class="section-desc">Moderní, útulné a přívětivé prostředí pro zvířata i jejich nové kamarády.</p>
+      </div>
+      <div class="viz__grid">
+        <div class="viz__placeholder viz__placeholder--main">
+          <div class="viz__icon">🏠</div>
+          <p>Vizualizace exteriéru útulku</p>
+        </div>
+        <div class="viz__placeholder">
+          <div class="viz__icon">🐕</div>
+          <p>Psí výběhy</p>
+        </div>
+        <div class="viz__placeholder">
+          <div class="viz__icon">🐈</div>
+          <p>Kočičí koutek</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTAGRAM -->
+  <section class="instagram section" id="instagram">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">📸 Sledujte nás</div>
+        <h2 class="section-title">@stavimeutulek na Instagramu</h2>
+        <p class="section-desc">Sledujte náš příběh – každý den nové momenty, novinky a chlupaté hvězdičky.</p>
+      </div>
+      <div class="ig__grid">
+        <!-- Placeholder posts – v reálu nahradit embed nebo API -->
+        <div class="ig__post">
+          <div class="ig__post-img">🐕</div>
+          <div class="ig__post-caption">Nový den, nová naděje. Díky všem, kteří přispěli! #stavimeutulek</div>
+        </div>
+        <div class="ig__post">
+          <div class="ig__post-img">🐈</div>
+          <div class="ig__post-caption">Kočky v útulku AniDef si říkají o nový domov. Adoptujte! 🏡</div>
+        </div>
+        <div class="ig__post">
+          <div class="ig__post-img">🐾</div>
+          <div class="ig__post-caption">Sbírka překonala nové rekordy. Vy jste jednoduše úžasní! ❤️</div>
+        </div>
+        <div class="ig__post">
+          <div class="ig__post-img">🐇</div>
+          <div class="ig__post-caption">Nejen psi a kočky. V novém útulku bude místo pro všechny.</div>
+        </div>
+      </div>
+      <div class="ig__follow">
+        <a href="https://www.instagram.com/stavimeutulek" target="_blank" class="btn btn--secondary">Sledovat na Instagramu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- O PROJEKTU -->
+  <section class="o-projektu section" id="o-projektu">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">❤️ Naše mise</div>
+        <h2 class="section-title">O projektu</h2>
+      </div>
+
+      <!-- Team -->
+      <div class="team">
+        <div class="team__card">
+          <div class="team__avatar">👩</div>
+          <h3>Erika Eliášová</h3>
+          <p>Podnikatelka a influencerka dlouhodobě pomáhající útulkům a zvířatům v nouzi.</p>
+        </div>
+        <div class="team__card">
+          <div class="team__avatar">🤝</div>
+          <h3>Dobrovolníci z Bouchalky</h3>
+          <p>Skupina obětavých dobrovolníků, kteří roky pomáhali psům nacházet domovy.</p>
+        </div>
+        <div class="team__card">
+          <div class="team__avatar">🐾</div>
+          <h3>Spolek AniDef</h3>
+          <p>Provozuje úspěšný útulek v Žimu a usiluje o systémové změny v péči o zvířata.</p>
+        </div>
+      </div>
+
+      <!-- Mission text -->
+      <div class="mission">
+        <div class="mission__quote">
+          <div class="mission__quote-mark">"</div>
+          <p>Věříme, že útulek může a má být místem naděje, ne smutku. Místem lásky, ne strachu. Místem, které pro zvířata neznamená konečnou stanici, ale naopak šanci na nový začátek.</p>
+        </div>
+        <div class="mission__text">
+          <p>V útulku AniDef v Žimu se už 9 let snaží každý den proměňovat tuto vizi v realitu. Bohužel musí čím dál častěji odmítat žádosti o přijetí zvířete, protože jsou dlouhodobě plní. Kapacity českých útulků jsou chronicky poddimenzované.</p>
+          <p>Na začátku roku 2026 naplno propukla krize kolem útulku Bouchalka a akcelerovala naše plány na rozšiřování útulkových kapacit. Pokud jsme chtěli situaci skutečně vyřešit, nezbylo nám než spustit dosud <strong>největší sbírku pro zvířata</strong>.</p>
+        </div>
+      </div>
+
+      <!-- Pilíře projektu -->
+      <div class="pillars">
+        <div class="section-header section-header--left">
+          <h3 class="section-title section-title--sm">Naše vize je útulek, který…</h3>
+        </div>
+        <div class="pillars__grid">
+          <div class="pillar">
+            <div class="pillar__icon">🐕‍🦺</div>
+            <h4>Staví zvířata na první místo</h4>
+            <p>Kvalitní krmivo, výborná veterinární péče a empatičtí ošetřovatelé. Zvíře v útulku si zaslouží to nejlepší, ne nejhorší.</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar__icon">👨‍👩‍👧‍👦</div>
+            <h4>Je přátelský pro celou rodinu</h4>
+            <p>Venčení, mazlení, rande u psů, víkendový výběh… Útulek jako místo radosti a pozitivní energie pro všechny.</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar__icon">📚</div>
+            <h4>Vzdělává a osvětluje</h4>
+            <p>Program „Se školou do útulku" i osvěta pro veřejnost. Mladá generace se učí empatii a zodpovědnosti ke zvířatům.</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar__icon">⚖️</div>
+            <h4>Bojuje za práva zvířat</h4>
+            <p>AniDef dosáhl rozsudků nad týrači, spolupracuje s veterinární správou i policií a podílí se na tvorbě zákonů.</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar__icon">🐈</div>
+            <h4>Je i pro kočky a malá zvířata</h4>
+            <p>Kočky, králíci, morčata, ptáci – pro všechna opuštěná zvířata, na která myslí málokdo.</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar__icon">🏗️</div>
+            <h4>Má konkrétní plán</h4>
+            <p>60 psů, 30 koček a drobná zvířata. Téměř 600 m² moderní budovy. Konkrétní projekt, konkrétní čísla.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats">
+        <div class="stat">
+          <div class="stat__number">3 500+</div>
+          <div class="stat__label">zachráněných zvířat</div>
+        </div>
+        <div class="stat">
+          <div class="stat__number">9 let</div>
+          <div class="stat__label">provozu útulku AniDef</div>
+        </div>
+        <div class="stat">
+          <div class="stat__number">600 m²</div>
+          <div class="stat__label">plánovaná plocha budovy</div>
+        </div>
+        <div class="stat">
+          <div class="stat__number">32 mil. Kč</div>
+          <div class="stat__label">cílová částka sbírky</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">❓ Otázky a odpovědi</div>
+        <h2 class="section-title">Nejčastější dotazy</h2>
+      </div>
+      <div class="faq__list">
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            Kdo za projektem stojí?
+            <span class="faq__arrow">▾</span>
+          </button>
+          <div class="faq__answer">
+            <p>Za projektem stojí tři síly: podnikatelka a influencerka <strong>Erika Eliášová</strong>, která se dlouhodobě věnuje pomoci zvířatům; skupina <strong>dobrovolníků z útulku Bouchalka</strong>, kteří se rozhodli situaci vyřešit a najít psům bezpečné útočiště; a <strong>spolek AniDef</strong>, který téměř 10 let úspěšně provozuje útulek v Žimu.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            Jak jste došli k cílové částce sbírky?
+            <span class="faq__arrow">▾</span>
+          </button>
+          <div class="faq__answer">
+            <p><strong>7 milionů Kč</strong> je odhad ceny pozemku (rešerše cen ve Středočeském kraji, minimálně 5 000 m², mimo zástavbu).</p>
+            <p><strong>25 milionů Kč</strong> je vyčíslení stavby necelých 600 m² pro 60 psů a 30 koček dle JKSO klasifikace. Jako reference sloužila mj. stavba útulku v Hodoníně (po tornádu), která bez pozemku pro 28 psů vyšla na 40 milionů Kč.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            Co když se celá částka nevybere?
+            <span class="faq__arrow">▾</span>
+          </button>
+          <div class="faq__answer">
+            <p>Každá koruna půjde na pomoc zvířatům. Máme realisticky připravenou <strong>variantu B</strong>: pokud cílovou částku nevybereme nebo nenajdeme vhodný pozemek, rozšíříme kapacity stávajícího útulku AniDef v Žimu a nabídneme je obcím, které dosud využívaly Bouchalku.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            Jak pomůže stavba psům, kteří jsou teď v Bouchalce?
+            <span class="faq__arrow">▾</span>
+          </button>
+          <div class="faq__answer">
+            <p>AniDef přislíbil převzít všechny kladenské psy z Bouchalky a drží místo pro nově odchycené psy z Kladna, dokud nevznikne plánovaný městský útulek. Zároveň připravujeme strategii na umístění všech ostatních psů z Bouchalky.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            Proč stavět velký útulek? Nebylo by lepší podpořit více malých azylů?
+            <span class="faq__arrow">▾</span>
+          </button>
+          <div class="faq__answer">
+            <p>Každá forma pomoci má svou cenu a malé azyly jsou skvělé pro individuální péči. Ale z praxe víme, že větší zařízení dokáže <strong>z hodiny na hodinu přijmout větší počet zvířat</strong> (např. při rozkrytí množírny) nebo v nočních hodinách vyjet k vážně zraněnému zvířeti. Takových kapacit je málo a ne všechny velké útulky dodržují adekvátní standardy.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            Kdo bude nový útulek provozovat a vlastnit?
+            <span class="faq__arrow">▾</span>
+          </button>
+          <div class="faq__answer">
+            <p>Nový útulek bude fungovat pod <strong>spolkem AniDef</strong>. Jako nezisková organizace nemůže majetek využít k zisku a v případě zrušení je povinna veškerý majetek převést na jinou neziskovou organizaci v oblasti ochrany zvířat.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PODPORUJÍ NÁS -->
+  <section class="podpory section" id="podporuji-nas">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">🤗 Stojí za námi</div>
+        <h2 class="section-title">Podporují nás</h2>
+        <p class="section-desc">Děkujeme všem, kteří věří v náš projekt a pomáhají šířit dobro.</p>
+      </div>
+      <div class="podpory__grid">
+        <a href="https://www.obecpchery.cz/zivot-v-obci/aktuality/sbirka-anidef-378cs.html" target="_blank" rel="noopener" class="podpora__card">
+          <div class="podpora__icon">🏘️</div>
+          <h4>Obec Pchery</h4>
+          <p>Oficiální podpora od starosty obce</p>
+        </a>
+        <a href="https://www.funkydog.cz" target="_blank" rel="noopener" class="podpora__card">
+          <div class="podpora__icon">🐶</div>
+          <h4>Funky Dog</h4>
+          <p>funkydog.cz</p>
+        </a>
+        <a href="https://www.eponae.eu/sbirka-na-utulek-donio" target="_blank" rel="noopener" class="podpora__card">
+          <div class="podpora__icon">🐴</div>
+          <h4>Eponae</h4>
+          <p>eponae.eu</p>
+        </a>
+        <div class="podpora__card podpora__card--cta">
+          <div class="podpora__icon">➕</div>
+          <h4>Přidejte se!</h4>
+          <p>Chcete podpořit projekt jako firma nebo organizace? Napište nám.</p>
+          <a href="#kontakt" class="btn btn--sm btn--primary">Kontaktujte nás</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MÉDIA -->
+  <section class="media section" id="media">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">📰 Psali o nás</div>
+        <h2 class="section-title">Projekt v médiích</h2>
+      </div>
+      <div class="media__grid">
+        <a href="https://tn.nova.cz/zpravodajstvi/clanek/643510-dobrovolnici-z-celeho-ceska-se-spojili-chteji-vybudovat-novy-utulek-pro-psy" target="_blank" rel="noopener" class="media__card">
+          <div class="media__logo">TV Nova</div>
+          <p>Dobrovolníci z celého Česka se spojili, chtějí vybudovat nový útulek pro psy</p>
+          <span class="media__link">Číst článek →</span>
+        </a>
+        <a href="https://www.idnes.cz/praha/zpravy/bouchalka-kladno-tyrani-zvirat-utulek-anidef-dobrovolnici-sbirka.A260319_154724_praha-zpravy_tmps" target="_blank" rel="noopener" class="media__card">
+          <div class="media__logo">iDnes.cz</div>
+          <p>Bouchalka, Kladno, týrání zvířat – dobrovolníci spouštějí sbírku na nové zařízení</p>
+          <span class="media__link">Číst článek →</span>
+        </a>
+        <a href="https://cnn.iprima.cz/konec-utulku-hruzy-na-dohled-anidef-spousti-sbirku-na-nove-zarizeni-pro-zvirata-pomozte-i-vy-507197" target="_blank" rel="noopener" class="media__card">
+          <div class="media__logo">CNN Prima NEWS</div>
+          <p>Konec útulku hrůzy na dohled – AniDef spouští sbírku na nové zařízení</p>
+          <span class="media__link">Číst článek →</span>
+        </a>
+        <a href="https://www.blesk.cz/clanek/zpravy-blesk-tlapky/835658/po-hruzach-prichazi-nadeje-bouchalku-ma-nahradit-novy-azyl-cesko-uz-se-na-nej-sklada.html" target="_blank" rel="noopener" class="media__card">
+          <div class="media__logo">Blesk.cz</div>
+          <p>Po hrůzách přichází naděje – Bouchalku má nahradit nový azyl, Česko se na něj skládá</p>
+          <span class="media__link">Číst článek →</span>
+        </a>
+        <a href="https://www.impuls.cz/regiony/redakce-doporucuje/rezabkova-ze-spolku-anidef-na-impulsu-legislativa-kolem-ochrany-zvirat-a-utulku-je-nedostatecna.A260325_140045_imp-redakce_impkn" target="_blank" rel="noopener" class="media__card">
+          <div class="media__logo">Radio Impuls</div>
+          <p>Řežábková ze spolku AniDef: Legislativa kolem ochrany zvířat je nedostatečná</p>
+          <span class="media__link">Číst článek →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOVINKY -->
+  <section class="novinky section" id="novinky">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">🔔 Co se děje</div>
+        <h2 class="section-title">Novinky a události</h2>
+        <p class="section-desc">Sledujte, co se děje – průběžné aktualizace přímo od nás.</p>
+      </div>
+      <div class="novinky__grid">
+        <!-- Tyto karty se budou přidávat ručně nebo přes CMS -->
+        <div class="novinka">
+          <div class="novinka__img">🎉</div>
+          <div class="novinka__meta">1. dubna 2026</div>
+          <h4>Sbírka spuštěna!</h4>
+          <p>Dnes spouštíme dosud největší českou sbírku pro zvířata. Děkujeme za vaši podporu od prvního dne!</p>
+        </div>
+        <div class="novinka">
+          <div class="novinka__img">🐕</div>
+          <div class="novinka__meta">25. března 2026</div>
+          <h4>Psi z Bouchalky mají novou naději</h4>
+          <p>AniDef přislíbil přijmout všechny kladenské psy z Bouchalky. Žádný z nich nezůstane bez pomoci.</p>
+        </div>
+        <div class="novinka">
+          <div class="novinka__img">📋</div>
+          <div class="novinka__meta">19. března 2026</div>
+          <h4>Projekt představen médiím</h4>
+          <p>Náš projekt získal ohromnou mediální podporu – Nova, iDnes, CNN Prima a další. Děkujeme!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section class="kontakt section" id="kontakt">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">✉️ Napište nám</div>
+        <h2 class="section-title">Kontakt</h2>
+        <p class="section-desc">Máte otázku, chcete se zapojit nebo nabídnout spolupráci? Rádi si přečteme každý vzkaz.</p>
+      </div>
+      <div class="kontakt__wrap">
+        <div class="kontakt__info">
+          <div class="kontakt__item">
+            <span class="kontakt__ico">📧</span>
+            <a href="mailto:anidef.utulek@gmail.com">anidef.utulek@gmail.com</a>
+          </div>
+          <div class="kontakt__item">
+            <span class="kontakt__ico">📞</span>
+            <a href="tel:+420602722905">602 722 905</a>
+          </div>
+          <div class="kontakt__item">
+            <span class="kontakt__ico">📍</span>
+            <span>Útulek AniDef, Žim u Teplic</span>
+          </div>
+          <div class="kontakt__socials">
+            <a href="https://www.instagram.com/stavimeutulek" target="_blank" rel="noopener" class="kontakt__social">Instagram</a>
+          </div>
+        </div>
+        <form class="kontakt__form" id="contactForm">
+          <div class="form__group">
+            <label for="name">Jméno</label>
+            <input type="text" id="name" name="name" placeholder="Vaše jméno" required />
+          </div>
+          <div class="form__group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="vas@email.cz" required />
+          </div>
+          <div class="form__group">
+            <label for="message">Zpráva</label>
+            <textarea id="message" name="message" rows="5" placeholder="Váš vzkaz nebo dotaz…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Odeslat zprávu 🐾</button>
+          <div class="form__note">Formulář odesílá zprávy na <strong>anidef.utulek@gmail.com</strong></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__paw">🐾</span>
+        <span>Stavíme útulek</span>
+      </div>
+      <p class="footer__tagline">Každá koruna zachraňuje životy.</p>
+      <div class="footer__links">
+        <a href="#uvod">Úvod</a>
+        <a href="#o-projektu">O projektu</a>
+        <a href="#faq">FAQ</a>
+        <a href="#kontakt">Kontakt</a>
+      </div>
+      <p class="footer__copy">© 2026 AniDef, z.s. – Provozováno se srdcem pro zvířata.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
