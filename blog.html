@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog & Novinky – Stavíme útulek</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="nav" id="mainNav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__paw">🐾</span>
+        <span>Stavíme útulek</span>
+      </a>
+      <button class="nav__burger" id="navBurger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html">Domů</a></li>
+        <li><a href="index.html#o-projektu">O projektu</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="index.html#media">V médiích</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="https://www.instagram.com/stavimeutulek" target="_blank" rel="noopener" class="nav__ig" aria-label="Instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a></li>
+        <li><a href="index.html#kontakt" class="nav__cta">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="section-tag">🔔 Aktuálně</div>
+      <h1 class="page-hero__title">Blog & Novinky</h1>
+      <p class="page-hero__desc">Průběžné aktualizace z projektu – co se povedlo, co chystáme a jak pokračuje sbírka.</p>
+    </div>
+  </section>
+
+  <!-- BLOG FEED -->
+  <section class="section blog-page">
+    <div class="container">
+
+      <!-- ============================================================
+           PŘIDÁVÁNÍ NOVÉ NOVINKY:
+           1. Zkopírujte blok <article class="blog-card"> níže
+           2. Vložte ho na začátek seznamu (nejnovější první)
+           3. Vyplňte: href, emoji ikonu, datum, nadpis, perex
+           4. Vytvořte soubor novinky/nazev-novinky.html (ze šablony _sablona.html)
+           ============================================================ -->
+
+      <div class="blog-feed">
+
+        <a href="novinky/sbirka-spustena.html" class="blog-card">
+          <div class="blog-card__icon">🎉</div>
+          <div class="blog-card__body">
+            <div class="blog-card__meta">1. dubna 2026</div>
+            <h2 class="blog-card__title">Sbírka je spuštěna!</h2>
+            <p class="blog-card__excerpt">Dnes spouštíme dosud největší českou veřejnou sbírku pro zvířata. Cíl je 32 milionů korun na výstavbu moderního útulku – a věříme, že to spolu dokážeme.</p>
+            <span class="blog-card__read">Číst více →</span>
+          </div>
+        </a>
+
+        <a href="novinky/psi-z-bouchalky.html" class="blog-card">
+          <div class="blog-card__icon">🐕</div>
+          <div class="blog-card__body">
+            <div class="blog-card__meta">25. března 2026</div>
+            <h2 class="blog-card__title">Psi z Bouchalky mají novou naději</h2>
+            <p class="blog-card__excerpt">AniDef přislíbil přijmout všechny kladenské psy z Bouchalky. Žádný z nich nezůstane bez pomoci – a tento závazek je pro nás posvátný.</p>
+            <span class="blog-card__read">Číst více →</span>
+          </div>
+        </a>
+
+        <a href="novinky/projekt-v-mediich.html" class="blog-card">
+          <div class="blog-card__icon">📰</div>
+          <div class="blog-card__body">
+            <div class="blog-card__meta">19. března 2026</div>
+            <h2 class="blog-card__title">Projekt Stavíme útulek v médiích</h2>
+            <p class="blog-card__excerpt">Náš projekt získal ohromnou mediální podporu hned od prvních dnů. TV Nova, iDnes, CNN Prima NEWS, Blesk i Radio Impuls – zájem je obrovský.</p>
+            <span class="blog-card__read">Číst více →</span>
+          </div>
+        </a>
+
+      </div><!-- /blog-feed -->
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container cta-banner__inner">
+      <div class="cta-banner__text">
+        <h2>Každá koruna se počítá</h2>
+        <p>Přispějte na sbírku a pomozte nám vybudovat útulek, kde každé zvíře dostane druhou šanci.</p>
+      </div>
+      <a href="https://donio.cz/widget2/38927" target="_blank" class="btn btn--primary btn--lg">Přispět na sbírku 🐾</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="index.html" class="footer__brand"><span class="footer__paw">🐾</span><span>Stavíme útulek</span></a>
+      <p class="footer__tagline">Každá koruna zachraňuje životy.</p>
+      <nav class="footer__links">
+        <a href="index.html">Domů</a>
+        <a href="o-nas.html">O projektu</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+      <a href="https://www.instagram.com/stavimeutulek" target="_blank" rel="noopener" class="footer__ig"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>@stavimeutulek</a>
+      <p class="footer__copy">© 2026 AniDef, z.s. – Provozováno se srdcem pro zvířata.</p>
+      <p class="footer__credit">Vytvořil marketingový stratég a SEO konzultant <a href="https://patrikpilous.cz/" target="_blank" rel="noopener">Patrik Pilous</a>.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
