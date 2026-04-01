@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ✏️ ZMĚŇTE: Nadpis stránky -->
+  <title>NÁZEV NOVINKY – Stavíme útulek</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+  <!-- NAV (neměňte) -->
+  <nav class="nav" id="mainNav">
+    <div class="nav__inner">
+      <a href="../index.html" class="nav__logo">
+        <span class="nav__paw">🐾</span>
+        <span>Stavíme útulek</span>
+      </a>
+      <button class="nav__burger" id="navBurger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="../index.html#uvod">Úvod</a></li>
+        <li><a href="../index.html#o-projektu">O projektu</a></li>
+        <li><a href="../index.html#faq">FAQ</a></li>
+        <li><a href="../index.html#podporuji-nas">Podporují nás</a></li>
+        <li><a href="../index.html#media">V médiích</a></li>
+        <li><a href="../index.html#novinky">Novinky</a></li>
+        <li><a href="../index.html#kontakt" class="nav__cta">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ARTICLE -->
+  <article class="article">
+    <div class="container article__container">
+
+      <a href="../index.html#novinky" class="page-back">← Všechny novinky</a>
+
+      <!-- ✏️ ZMĚŇTE: Emoji ikona (vyberte jednu: 🐕 🐈 🎉 📋 ❤️ 🏗️ 📰 🌟) -->
+      <div class="article__icon">🐕</div>
+
+      <!-- ✏️ ZMĚŇTE: Datum ve formátu "D. měsíce RRRR" -->
+      <div class="article__meta">1. dubna 2026</div>
+
+      <!-- ✏️ ZMĚŇTE: Nadpis novinky -->
+      <h1 class="article__title">Název novinky</h1>
+
+      <!-- ✏️ ZMĚŇTE: Perex (krátký úvodní odstavec, 1–2 věty) -->
+      <p class="article__perex">Krátký úvod do novinky. Co se stalo, proč je to důležité.</p>
+
+      <!-- ✏️ ZMĚŇTE: Obsah článku – přidávejte <p> odstavce, <h2> podnadpisy, <ul> seznamy -->
+      <div class="article__body">
+        <p>První odstavec článku. Popis situace, co se děje, detaily.</p>
+
+        <h2>Podnadpis (volitelné)</h2>
+        <p>Další odstavec s více informacemi.</p>
+
+        <ul>
+          <li>Odrážka 1</li>
+          <li>Odrážka 2</li>
+          <li>Odrážka 3</li>
+        </ul>
+
+        <p>Závěrečný odstavec nebo výzva k akci.</p>
+      </div>
+
+      <!-- CTA blok (volitelně upravte text) -->
+      <div class="article__cta-box">
+        <h3>Pomozte nám!</h3>
+        <p>Každá koruna se počítá. Přispějte na sbírku a pomozte nám vybudovat útulek pro zvířata, která to potřebují.</p>
+        <a href="https://donio.cz/widget2/38927" target="_blank" class="btn btn--primary">Přispět na sbírku 🐾</a>
+      </div>
+
+    </div>
+  </article>
+
+  <!-- FOOTER (neměňte) -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__paw">🐾</span>
+        <span>Stavíme útulek</span>
+      </div>
+      <p class="footer__tagline">Každá koruna zachraňuje životy.</p>
+      <div class="footer__links">
+        <a href="../index.html">Úvod</a>
+        <a href="../index.html#novinky">Novinky</a>
+        <a href="../index.html#kontakt">Kontakt</a>
+      </div>
+      <p class="footer__copy">© 2026 AniDef, z.s.</p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
+
+<!--
+==================================================
+  NÁVOD: Jak přidat novou novinku přes Claude
+==================================================
+
+Řekněte Claudovi:
+"Přidej novou novinku na web stavimeutulek.cz
+  - Soubor: novinky/nazev-novinky.html (bez diakritiky, pomlčky místo mezer)
+  - Datum: D. měsíce RRRR
+  - Ikona: 🐕 (nebo jiná)
+  - Nadpis: ...
+  - Perex: ...
+  - Obsah: ...
+  Potom ji přidej jako první dlaždici do sekce Novinky v index.html."
+
+Claude zkopíruje tuto šablonu, doplní obsah a aktualizuje index.html.
+==================================================
+-->
