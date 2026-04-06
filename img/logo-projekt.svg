@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 280" fill="#8bddcf">
+  <!-- Stříška / střecha – dvě tlusté čáry tvořící ^ -->
+  <path d="M30 200 L250 40 L470 200" stroke="#8bddcf" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- AniDef shield/logo – centrováno pod stříšku -->
+  <!-- Štít (shield) -->
+  <path d="M250 130 C220 130 185 142 185 142 L185 195 C185 228 250 255 250 255 C250 255 315 228 315 195 L315 142 C315 142 280 130 250 130Z"/>
+  <!-- Dvě tečky (oči sovy) -->
+  <circle cx="228" cy="178" r="14" fill="white"/>
+  <circle cx="272" cy="178" r="14" fill="white"/>
+  <!-- Střed / zobáček -->
+  <rect x="244" y="200" width="12" height="30" rx="6" fill="white"/>
+  <!-- Křídélka / linie po stranách štítu -->
+  <line x1="145" y1="165" x2="180" y2="165" stroke="#8bddcf" stroke-width="10" stroke-linecap="round"/>
+  <line x1="148" y1="183" x2="180" y2="183" stroke="#8bddcf" stroke-width="10" stroke-linecap="round"/>
+  <line x1="155" y1="201" x2="180" y2="201" stroke="#8bddcf" stroke-width="10" stroke-linecap="round"/>
+  <line x1="320" y1="165" x2="355" y2="165" stroke="#8bddcf" stroke-width="10" stroke-linecap="round"/>
+  <line x1="320" y1="183" x2="352" y2="183" stroke="#8bddcf" stroke-width="10" stroke-linecap="round"/>
+  <line x1="320" y1="201" x2="345" y2="201" stroke="#8bddcf" stroke-width="10" stroke-linecap="round"/>
+</svg>

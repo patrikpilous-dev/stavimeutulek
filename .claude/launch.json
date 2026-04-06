@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "stavimeutulek",
+      "runtimeExecutable": "py",
+      "runtimeArgs": ["-m", "http.server", "7789", "--directory", "C:/Users/patri/.claude/projects/stavimeutulek"],
+      "port": 7789
+    }
+  ]
+}
