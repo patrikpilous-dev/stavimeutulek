@@ -876,10 +876,18 @@ body {
   margin-bottom: 40px;
   align-items: start;
 }
-.ig__embeds .instagram-media {
-  border-radius: var(--radius-lg) !important;
-  box-shadow: var(--shadow-md) !important;
-  border: 2px solid var(--orange-lt) !important;
+.ig__embed-wrap {
+  max-height: 560px;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 2px solid var(--orange-lt);
+}
+.ig__embed-wrap iframe,
+.ig__embed-wrap .instagram-media {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 
 /* ============ CORGI DOG DECO ============ */
