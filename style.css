@@ -69,9 +69,9 @@ ul { list-style: none; }
   top: 0; left: 0; right: 0;
   z-index: 100;
   height: var(--nav-h);
-  background: rgba(216,212,197,0.85);
+  background: rgba(255,255,255,0.92);
   backdrop-filter: blur(14px);
-  border-bottom: 2px solid var(--orange-lt);
+  border-bottom: 1px solid rgba(139,221,207,0.3);
   transition: box-shadow .3s;
 }
 .nav.scrolled { box-shadow: var(--shadow-md); }
@@ -864,7 +864,7 @@ body {
   display: flex;
   align-items: center;
   padding: 6px 10px !important;
-  color: var(--orange) !important;
+  color: var(--mid) !important;
 }
 .nav__ig:hover { background: var(--orange-lt) !important; opacity: 1 !important; }
 
