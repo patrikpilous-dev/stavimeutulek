@@ -1,11 +1,8 @@
 Options -Indexes
 RewriteEngine On
 
-# HTTPS vynucení
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-
-# www → bez www
+# Vše → https://stavimeutulek.cz (bez www, HTTPS) — jeden redirect
+RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\.stavimeutulek\.cz$ [NC]
 RewriteRule ^(.*)$ https://stavimeutulek.cz/$1 [R=301,L]
 
