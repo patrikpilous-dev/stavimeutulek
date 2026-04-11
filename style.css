@@ -629,6 +629,21 @@ ul { list-style: none; }
   background: var(--orange-lt);
   border-color: var(--orange);
 }
+.podpora__card--cta-wide {
+  grid-column: 1 / -1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  padding: 24px 36px;
+  gap: 24px;
+}
+.podpora__card--cta-wide .podpora__icon { font-size: 2rem; flex-shrink: 0; }
+.podpora__card--cta-wide h4 { font-size: 1.15rem; }
+.podpora__card--cta-wide p { margin: 0; }
+@media (max-width: 600px) {
+  .podpora__card--cta-wide { flex-direction: column; text-align: center; }
+}
 
 /* ============ MÉDIA ============ */
 .media { background: var(--cream); }
@@ -877,7 +892,7 @@ body {
   align-items: start;
 }
 .ig__embed-wrap {
-  max-height: 560px;
+  max-height: 640px;
   overflow: hidden;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
